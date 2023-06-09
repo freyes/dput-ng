@@ -2,7 +2,6 @@
 
 import re
 import codecs
-from dput import __appname__
 from setuptools import setup
 
 long_description = open('README.md').read()
@@ -15,7 +14,7 @@ src, version, suite = pobj
 # Yes, I'm sorry, world. I'm sorry.
 
 setup(
-    name=__appname__,
+    name='dput',
     version=version,
     packages=[
         'dput',
